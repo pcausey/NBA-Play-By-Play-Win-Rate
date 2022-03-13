@@ -1,4 +1,4 @@
-loning the Repo:
+## Cloning the Repo
 
 Find the repo on github and find the https website. It should look something like 
 ```
@@ -96,7 +96,7 @@ Now when you run a git status - you'll get something like this:
 #       new file:   PeterTestFile.ipynb
 ```
 
-If you're happy with your files and you want to 'commit' the changes to the repo. The '-m' signals git that you're putting a message on this group of commits - keep it short, active language, and easily understood.
+If you're happy with your files and you want to 'commit' the changes to the repo. The '-m' signals git that you're putting a message on this group of commits - keep it short, active language, and easily understood. If you don't use the '-m' feature, you'll be forced to write a brief commit message before git will actually allow you to commit - if you don't, it will be 'aborted'.
 
 ```
 git commit -m 'Make a Test File'
